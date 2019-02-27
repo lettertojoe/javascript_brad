@@ -37,5 +37,4 @@ obj = person;
 
 console.log(obj);
 
-//Date and Time
-// Date and time
+
