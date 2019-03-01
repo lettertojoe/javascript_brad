@@ -1,40 +1,39 @@
+// // let val;
+
+// // val = 5;
+
+// //console.log(val);
+// // console.log(typeof(val));
+
+
+// //To number
 // let val;
 
-// val = 5;
+// val = new Date();
+// val  = Number('5');
 
-//console.log(val);
 // console.log(typeof(val));
 
+// console.log(val);
 
-//To number
-let val;
+// const person = {
+//   firstName: 'Steve',
+//   lastName: 'Smith',
+//   age: 30,
+//   email: 'steve@aol.com',
+//   hobbies: ['music', 'sports'],
+//   address:{
+//     city: 'Miami',
+//     state: 'FL'
+//   },
+//   getBirthYears: function(){
+//     return 1987;
+//   }
+// }
 
-val = new Date();
-val  = Number('5');
+// let obj;
 
-console.log(typeof(val));
+// obj = person;
 
-console.log(val);
-
-const person = {
-  firstName: 'Steve',
-  lastName: 'Smith',
-  age: 30,
-  email: 'steve@aol.com',
-  hobbies: ['music', 'sports'],
-  address:{
-    city: 'Miami',
-    state: 'FL'
-  },
-  getBirthYears: function(){
-    return 1987;
-  }
-}
-
-let obj;
-
-obj = person;
-
-console.log(obj);
-
+// console.log(obj);
 
