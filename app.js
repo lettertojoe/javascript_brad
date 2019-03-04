@@ -67,14 +67,16 @@ const c = 3;
 
 // test();
 
-if (true){
-  var a = 4;
+// if (true){
+//   var a = 4;
 
-  let b = 5;
+//   let b = 5;
 
-  const c = 6;
+//   const c = 6;
 
-  console.log('Function scope' + ' ', a, b, c);
-}
+//   console.log('Function scope' + ' ', a, b, c);
+// }
 
-console.log('Global scope' + ' ', a, b, c);
+// console.log('Global scope' + ' ', a, b, c);
+
+
