@@ -7,6 +7,12 @@ let val;
 
 val = document.all;
 
-console.log(val);
+//Creating Elements
 
-//dom traverse.
+const li = document.createElement('li');
+
+li.className = 'collection-item'
+
+li.id = 'new-item'
+
+console.log(li);
