@@ -13,6 +13,6 @@ const li = document.createElement('li');
 
 li.className = 'collection-item'
 
-li.id = 'new-item'
+li.id = 'new-item';
 
 console.log(li);
