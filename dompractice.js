@@ -16,3 +16,5 @@ li.className = 'collection-item'
 li.id = 'new-item';
 
 console.log(li);
+
+//today I learnt event listener and bubbles
