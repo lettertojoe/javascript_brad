@@ -1,20 +1,61 @@
-// let val;
+// //document.getElementById()
 
-// val = document.all;
+// //console.log(document.getElementById('task-title'));
+
+// //Get things from the element
+
+// //console.log(document.getElementById('task-title').id);
+
+// //document.quetySelector()
+
+// //console.log(document.querySelector('li:nth-child(even)').style.color ='red');//This will only affect the number.
+
+// //byclassName
+
+// const items = document.getElementsByClassName('collection-item');
+
+// //console.log(items);
+
+// //document.querySelectorAll
+
+// let qSelector = document.querySelectorAll('ul li');
+
+// //console.log(qSelector);
+
+// //DOM Traverse
+
+// const ulist = document.querySelector('ul.collection');
+
+// const lilist = document.querySelector('li.collection-item:first-child');
+
+//   let val ;
+
+//   //val = ulist.childNodes;
+
+//   //val = ulist.children;
+
+//   val = ulist.firstElementChild;
 
 // console.log(val);
-let val;
 
-val = document.all;
+// //create element
 
-//Creating Elements
+// let li = document.createElement('li');
+// let textInside = document.createTextNode('New Content');
 
-const li = document.createElement('li');
+// let displayLi = li.appendChild(textInside);
 
-li.className = 'collection-item'
 
-li.id = 'new-item';
 
-console.log(li);
+// console.log(li);
 
-//today I learnt event listener and bubbles
+
+// document.querySelector('.clear-tasks').addEventListener('click', Clickme );
+
+// function Clickme (e) {
+//   console.log('You clicked me');
+//   e.preventDefault(); 
+
+//   console.log(e);
+// }
+
