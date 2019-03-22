@@ -37,8 +37,8 @@ function addTask(){
     taskList.appendChild(li);
     //clear input
     taskInput = '';
-
-
     e.preventDefault();
   }
 }
+
+vgkjh
