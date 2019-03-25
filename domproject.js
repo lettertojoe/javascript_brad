@@ -67,8 +67,8 @@ function clearTask(e){
   
 }
 
-// //clear Tasks
-// function filterTasks(e){
+//clear Tasks
+function filterTasks(e){
 //   const text = e.target.value.tolowercase();
 //   e.preventDefault();
 }
