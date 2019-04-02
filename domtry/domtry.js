@@ -21,8 +21,8 @@ function loadEventListeners() {
 function addtask(e){
   if(task.value ===''){
     alert('Please enter a task');
-  }
-  const li = document.createElement('li');
+  } else {
+    const li = document.createElement('li');
   const liText = document.createTextNode(task.value);
   li.appendChild(liText);
   const attachLink = document.createElement('a');
@@ -32,6 +32,8 @@ function addtask(e){
   collection.appendChild(li);
   console.log(task.value);
   task.value = '';
+  }
+  
     
   e.preventDefault();
 }
